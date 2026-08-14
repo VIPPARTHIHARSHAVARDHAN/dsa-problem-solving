@@ -22,3 +22,5 @@ nums = [-1, 0, 3, 5, 9, 12]
 target = 9
 
 print(obj.ub(nums, target))
+
+#optimal solution
