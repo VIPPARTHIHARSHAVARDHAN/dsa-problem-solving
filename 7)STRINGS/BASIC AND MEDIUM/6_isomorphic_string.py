@@ -8,10 +8,7 @@ class Solution:
                     return False
             mapST[c1]=c2
             mapTS[c2]=c1
-        return True
-                
-        
-        
+        return True              
 obj = Solution()
 s="add"
 t="egg"

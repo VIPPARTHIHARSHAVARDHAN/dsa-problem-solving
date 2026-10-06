@@ -1,5 +1,6 @@
 class Solution(object):
     def fibonacci(self, n):
+        sum=0
         f = [0] * n
 
         if n >= 1:
@@ -9,8 +10,10 @@ class Solution(object):
 
         for i in range(2, n):
             f[i] = f[i - 1] + f[i - 2]
+        for i in range(n):
+            sum += f[i]
 
-        return f
+        return f,sum
 
 
 obj = Solution()
@@ -20,6 +23,7 @@ print(obj.fibonacci(7))
 #using multiple recursion
 class Solution(object):
     def fibonacci(self, n):
+        
         if n<=1:
             return n
         return self.fibonacci(n-1)+self.fibonacci(n-2)

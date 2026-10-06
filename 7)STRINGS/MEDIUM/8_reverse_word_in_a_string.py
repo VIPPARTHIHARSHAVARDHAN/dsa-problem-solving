@@ -62,7 +62,6 @@ class Solution(object):
 
         if word != "":
             words.append(word)
-        
 
         rev = ""
 

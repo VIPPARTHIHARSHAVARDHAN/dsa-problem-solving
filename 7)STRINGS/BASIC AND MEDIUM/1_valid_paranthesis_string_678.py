@@ -28,7 +28,7 @@ class Solution(object):
 obj = Solution()
 
 # Calling the function
-s = "(*))"
+s = " (*))"
 answer = obj.checkValidString(s)
 
 print(answer)

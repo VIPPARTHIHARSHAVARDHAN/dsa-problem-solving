@@ -30,7 +30,6 @@ class Solution(object):
         
       
 obj = Solution()
-
 arr = [5,4,3,2,1]
 
 obj.mergesort(arr,0,len(arr)-1)

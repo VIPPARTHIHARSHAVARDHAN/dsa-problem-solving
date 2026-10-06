@@ -17,7 +17,7 @@ class Solution(object):
                     result += ch
 
         return result
-
+ 
 
 # Object creation
 obj = Solution()

@@ -1,6 +1,6 @@
 class Solution(object):
     def allocatebooks(self, pages, students):
-        low = min(pages)
+        low = max(pages)
         high = sum(pages)
 
         while low <= high:

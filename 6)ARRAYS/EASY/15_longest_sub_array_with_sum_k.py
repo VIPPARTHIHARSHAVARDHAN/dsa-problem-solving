@@ -18,7 +18,7 @@ k = 3
 print(obj.longestsubarray(nums, k))
     #O(n cube)
     
-    #optimal
+    #optimal sliding window
     
 class Solution(object):
     def longestsubarray(self, nums,k):
